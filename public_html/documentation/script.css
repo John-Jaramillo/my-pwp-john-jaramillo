@@ -1,11 +1,16 @@
 body {
-    background-color: rgb(50,150,150);
+    background-color: rgb(75,150,250);
 }
 
-img {
+img[alt="My Picture"] {
     width: 10em;
     float: left;
     margin-right: 2em;
+}
+
+img[alt*="Mobile"] {
+    width: 20em;
+    margin-right: 1em;
 }
 
 table {
