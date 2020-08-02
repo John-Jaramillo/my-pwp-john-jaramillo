@@ -1,25 +1,23 @@
 body {
-    background-color: #eae7dc;
+    background-color: #f8f9fa;
 }
 
-/*h1 {*/
-/*    color: #e85a4f;*/
-/*}*/
-
-#aboutMe {
-    /*background-image: url(my_image.png);*/
+#myName {
+    background-image: url("sandia-mountain.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
     background-color: rgba(255,255,255,0.7);
     background-blend-mode: lighten;
 }
 
-/*#aboutMe {*/
-/*    background-color: #d8c3a5;*/
-/*}*/
+#aboutMe {
+    background-color: #eae7dc;
+}
 
 #portfolio {
-    background-color: #d8c3a5;
+    background-color: #eae7dc;
 }
 
 #contactMe {
-    background-color: #daad86;
+    background-color: #eae7dc;
 }
