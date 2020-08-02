@@ -5,43 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
     <title>John's Website</title>
 </head>
 <body>
 
 <div class="container mt-4 border">
-    <nav class="navbar navbar-expand-lg border rounded">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border rounded">
 <!--        <a class="navbar-brand" href="#">John Jaramillo</a>-->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Me</a>
+                    <a class="nav-link" href="#contactMe">Contact Me</a>
                 </li>
             </ul>
         </div>
     </nav>
 </div>
 
-<div class="container mt-4 border">
+<div class="container my-0 border" id="aboutMe"  style="background-image: url(https://mdbootstrap.com/img/Photos/Others/img%20%2832%29.jpg);">
     <h1>John Jaramillo</h1>
-    <h3>About Me</h3>
+    <h4>About Me</h4>
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
     <p><strong>Skills</strong></p>
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
 </div>
-<div class="container mt-4 border">
-    <h3>Portfolio</h3>
+<div class="container my-0 pb-4 border" id="portfolio">
+    <h4>Portfolio</h4>
     <div class="row">
         <div class="col-lg d-flex justify-content-center border">
             <div class="card border-0" style="width: 10rem;">
@@ -77,8 +78,8 @@
         </div>
     </div>
 </div>
-<div class="container mt-4 border">
-    <h3>Contact Me</h3>
+<div class="container my-0 border" id="contactMe">
+    <h4>Contact Me</h4>
     <div class="row">
         <div class="col-lg border">
             <form>
