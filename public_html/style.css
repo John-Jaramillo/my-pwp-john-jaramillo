@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'lovelygirl';
+    src: url('fonts/lovely_girl-webfont.woff2') format('woff2'),
+    url('fonts/lovely_girl-webfont.woff') format('woff'),
+    url('fonts/LovelyGirl.otf') format('opentype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+h1 {
+    font-family: 'lovelygirl', Arial, sans-serif;
+    font-weight:normal;
+    font-style:italic;
+}
+
 body {
     background-color: #f8f9fa;
 }
