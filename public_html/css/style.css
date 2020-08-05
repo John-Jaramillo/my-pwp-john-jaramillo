@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'lovelygirl';
-    src: url('fonts/lovely_girl-webfont.woff2') format('woff2'),
-    url('fonts/lovely_girl-webfont.woff') format('woff'),
-    url('fonts/LovelyGirl.otf') format('opentype');
+    src: url('../fonts/lovely_girl-webfont.woff2') format('woff2'),
+    url('../fonts/lovely_girl-webfont.woff') format('woff'),
+    url('../fonts/LovelyGirl.otf') format('opentype');
     font-weight:normal;
     font-style:normal;
 }
@@ -18,7 +18,7 @@ body {
 }
 
 #myName {
-    background-image: url("sandia-mountain.jpg");
+    background-image: url("../sandia-mountain.jpg");
     background-size: auto;
     background-repeat: no-repeat;
     background-color: rgba(255,255,255,0.7);
