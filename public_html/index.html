@@ -11,10 +11,10 @@
 </head>
 <body>
 
-<div class="container mt-4">
+<div class="container">
     <div class="row">
-        <div class="col"></div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="col">
+            <nav class="navbar navbar-expand-sm">
         <!--        <a class="navbar-brand" href="#">John Jaramillo</a>-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -34,9 +34,11 @@
                     </ul>
                 </div>
             </nav>
+        </div>
     </div>
 </div>
 
+<div id="personal">
 <div class="container pt-5 pb-3" id="myName">
     <h1>John Jaramillo</h1>
 </div>
@@ -53,8 +55,8 @@
             <li>React</li>
         </ul>
 </div>
-
-<div class="container my-0 pt-2 pb-4 my-2" id="portfolio">
+</div>
+<div class="container my-0 pt-2 pb-4 border-top border-bottom border-dark" id="portfolio">
     <h4>Portfolio</h4>
     <div class="row">
         <div class="col-lg d-flex justify-content-center">
@@ -96,7 +98,7 @@
     <h4>Contact Me</h4>
     <div class="row">
         <div class="col-lg">
-            <form>
+            <form id="contact">
                 <div class="form-group">
                     <label for="contactName">Name</label>
                     <input type="text" class="form-control" id="contactName" aria-describedby="nameHelp" placeholder="Enter name">
@@ -110,7 +112,9 @@
                     <textarea class="form-control" id="contactMessage" rows="3" placeholder="Enter message"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
+                <div class="g-recaptcha" data-sitekey="6Ldcmr0ZAAAAAJBMhQl4sQreq-tLufg5K7TEfGnW"></div>
             </form>
+            <div id="output-area"></div>
         </div>
         <div class="col-lg">
             <p>You can contact me at jjaramillo1221@gmail.com or at my LinkedIn account.</p>
@@ -118,8 +122,28 @@
     </div>
 </div>
 
+<script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+<script crossorigin="anonymous"
+        integrity="sha256-2Pjr1OlpZMY6qesJM68t2v39t+lMLvxwpa8QlRjJroA="
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha256-F6h55Qw6sweK+t7SiOJX+2bpSAa3b/fnlrVCJvmEj1A="
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha256-0Yg/eibVdKyxkuVo1Qwh0DspoUCHvSbm/oOoYVz32BQ="
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
+
+
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<script src="script.js"></script>
 </body>
 </html>
