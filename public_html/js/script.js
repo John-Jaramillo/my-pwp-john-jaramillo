@@ -6,27 +6,27 @@ $(document).ready(function () {
     errorElement: "div",
 
     rules: {
-      name: {
+      contactName: {
         required: true
       },
-      email: {
+      contactEmail: {
         email: true,
         required: true
       },
-      message : {
+      contactMessage : {
         required: true,
         maxlength: 2000
       }
     },
     messages: {
-      name: {
+      contactName: {
         required: "Name is a required field"
       },
-      email: {
+      contactEmail: {
         required: "Email is a required field",
         email: "Please provide a valid email address"
       },
-      message: {
+      contactMessage: {
         required: "Message is a required field",
         maxlength: "Message is limited to 2000 characters"
       },
