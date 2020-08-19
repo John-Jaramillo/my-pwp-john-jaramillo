@@ -1,39 +1,45 @@
 @font-face {
-    font-family: 'lovelygirl';
-    src: url('../fonts/lovely_girl-webfont.woff2') format('woff2'),
-    url('../fonts/lovely_girl-webfont.woff') format('woff'),
-    url('../fonts/LovelyGirl.otf') format('opentype');
+    font-family: 'mountainbridge';
+    src: url('../fonts/mountainbridge-webfont.woff2') format('woff2'),
+    url('../fonts/mountainbridge-webfont.woff') format('woff'),
+    url('../fonts/MountainBridge.otf') format('opentype');
     font-weight:normal;
     font-style:normal;
 }
 
 h1 {
-    font-family: 'lovelygirl', Arial, sans-serif;
-    font-weight:bold;
+    font-family: 'mountainbridge', Arial, sans-serif;
+    /*font-weight:bold;*/
     font-style:italic;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
-body {
-    /*background-color: #f8f9fa;*/
-    background-image: linear-gradient(lightblue, lightskyblue, lightblue);
-}
+/*body {*/
+/*    !*background-color: #f8f9fa;*!*/
+/*    background-image: linear-gradient(lightblue, lightskyblue, lightblue);*/
+/*}*/
 
 #myName {
-    background-image: url("../img/sandia-mountain.jpg");
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-color: rgba(255,255,255,0.6);
-    background-blend-mode: lighten;
-}
-
-#aboutMe {
-    background-color: #eae7dc;
+    /*background-image: url("../img/sandia-mountain.jpg");*/
+    /*background-size: auto;*/
+    /*background-repeat: no-repeat;*/
+    background-color: black;
+    /*background-blend-mode: lighten;*/
+    color: white;
 }
 
 #portfolio {
-    background-color: #eae7dc;
+    background-color: black;
 }
+/*#aboutMe {*/
+/*    background-color: #eae7dc;*/
+/*}*/
 
-#contactMe {
-    background-color: #eae7dc;
-}
+/*#portfolio {*/
+/*    background-color: #eae7dc;*/
+/*}*/
+
+/*#contactMe {*/
+/*    background-color: #eae7dc;*/
+/*}*/

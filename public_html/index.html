@@ -13,14 +13,14 @@
 
     <link rel="stylesheet" href="css/style.css">
 
-    <title>John's Website</title>
+    <title>About John</title>
 </head>
 <body>
 
 <div class="container">
     <div class="row">
         <div class="col">
-            <nav class="navbar navbar-expand-sm">
+            <nav class="navbar navbar-light navbar-expand-sm">
         <!--        <a class="navbar-brand" href="#">John Jaramillo</a>-->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -45,12 +45,12 @@
 </div>
 
 <div id="personal">
-    <div class="container pt-5 pb-3" id="myName">
-        <h1>John Jaramillo</h1>
+    <div class="container" id="myName">
+        <img src="./img/placeholder.jpg" class="img-fluid float-right" width="18%" height="auto" alt="My Picture">
+        <h1>Hi, I'm John</h1>
     </div>
-</div>
 <div class="container my-0 py-2" id="aboutMe">
-    <p>Are you looking for an outgoing, physically fit, who knows all the answers? Well, I wish you the best of luck on your search because that's definitely not me.</p>
+    <p>Are you looking for an outgoing, physically fit, who knows all the answers? Well, I wish you the best of luck on your search because that's definitely not me. At least not yet!</p>
     <h4>About Me</h4>
     <p>I'm currently enrolled in the CNMIngenuity Deep Dive Fullstack Web Development bootcamp. I've done a few jobs in my life and I've . I learned patience and humility from working in group homes for the mentally handicapped.</p>
     <p><strong>Skills</strong></p>
@@ -62,9 +62,10 @@
             <li>React</li>
         </ul>
 </div>
-
+</div>
 <div class="container my-0 pt-2 pb-4 border-top border-bottom border-dark" id="portfolio">
-    <h4>Portfolio</h4>
+    <h4 style="color: white">Portfolio</h4>
+    <p></p>
     <div class="row">
         <div class="col-lg d-flex justify-content-center">
             <div class="card border-0 my-2" style="width: 10rem; height: 20rem;">
@@ -145,7 +146,7 @@
                     </div>
                 </div>
                 <div class="g-recaptcha" data-sitekey="6Ldcmr0ZAAAAAJBMhQl4sQreq-tLufg5K7TEfGnW"></div>
-                <button class="btn btn-info" type="submit">Submit</button>
+                <button class="btn btn-info" style="background-color: black" type="submit">Submit</button>
                 <button class="btn btn-default" type="reset">Reset</button>
             </form>
             <div id="output-area"></div>
